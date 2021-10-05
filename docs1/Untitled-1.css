@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+p{
+    color: #adfa12;
+}
+#nama{
+    font-family: ephesis;
+    font-size: 35px;
+    color: blueviolet;
+    font-style: italic ;
+}
+.blok{
+    margin: 10px 50px 100px;
+    width: 150px;
+    height: auto;
+    padding: 2px;
+    border: 2px solid blue;
+    background-color: bisque;
+    color: blueviolet;
+    display: inline-block;
+    
+}
+#overflow {
+    margin-top: 50px;
+}
+#over1 {
+    color: blue;
+    width: 150px;
+    height: 200px;
+    background-color: #adfa12;
+    overflow: visible;
+}
+#over2 {
+    margin: auto;
+    background-color: bisque;
+    color: #dd1631;
+    overflow: visible;
+}
+.div1 {
+    display: flex;
+    background-color: #dd1631;
+}
+.div1 div {
+    background-color: coral;
+    width: 150px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 30px;
+}
